@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="blackjack.css">
+        
+    </head>
+    <body>
+        <h1>BlackJack</h1>
+        <p id="message-el">Want to play a round?</p>
+        <p id="cards-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
+      
+      
+        <!-- Creating a button named START GAME.
+        This button when clicked invokes the startGAME() function -->
+        <button id="start-el" onclick="startGame()">START GAME</button>
+        <!-- <br>
+        <!-- <br> taken care of through margin-bottom in CSS -->
+        <!-- This is the button the user clicks when the sum is less that 21. Upon clicking the function newCard() is invoked -->
+        <button id="new-el" onclick="newCard()">New Card</button>
+        <p id="player-el"></p>
+        <script src="blackjack.js"></script>
+    </body>
+</html>
